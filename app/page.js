@@ -166,7 +166,7 @@ export default function Home() {
               </svg>
             </button>
             <span className="font-bold text-xl text-gray-800">
-              {date?.toLocaleString("default", { month: "long" })} 2024
+              {date?.toLocaleString("default", { month: "long" })} {date?.getFullYear()}
             </span>
             <button
               className="text-gray-500 hover:text-gray-700"
